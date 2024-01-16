@@ -1,0 +1,9 @@
+name: Merge queue test
+
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+  deployment:
+    if: ${{ github.event_name == 'merge_group' }}
