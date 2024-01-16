@@ -8,7 +8,7 @@ stl.title("Language search")
 input_text=stl.text_input("Enter your query")
 from langchain.llms import OpenAI
 llm=OpenAI(temperature=0.8)
-print("dafer")
+
 
 if input_text :
     stl.write(llm(input_text))
