@@ -1,0 +1,13 @@
+prefix=/Users/harikrishnan/Documents/Project/Langchain/myenv
+exec_prefix=/Users/harikrishnan/Documents/Project/Langchain/myenv
+libdir=/Users/harikrishnan/Documents/Project/Langchain/myenv/lib
+sharedlibdir=/Users/harikrishnan/Documents/Project/Langchain/myenv/lib
+includedir=/Users/harikrishnan/Documents/Project/Langchain/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
